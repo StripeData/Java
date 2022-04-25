@@ -33,7 +33,7 @@ public class ForLoop {
         do{
             System.out.println("i1 = " + i1);
             i1++;
-        }while(i1<=10);
+        }while(i1<=15);
 
     }
 }
