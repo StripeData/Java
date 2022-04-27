@@ -67,7 +67,7 @@ public class Child extends Parent{
         this.education = education;
     }
 
-    void add(int a, int b) throws NullPointerException{
+    public void add(int a, int b) throws NullPointerException{
         System.out.println("child class sum = "+(a+b));
     }
 
@@ -79,6 +79,7 @@ public class Child extends Parent{
         obj.setName("Mahesh");
         obj.setAge(67);
         obj.setEducation("MBA");
+        obj.getEducation();
         obj.add(6,7);
 
         Parent p = new Child();
